@@ -1,0 +1,13 @@
+{
+  "extends": "@repo/typescript-config/reactjs.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "rootDirs": [".", "./.react-router/types"]
+  },
+  "include": [
+    "**/*",
+    "**/.server/**/*",
+    "**/.client/**/*",
+    ".react-router/types/**/*"
+  ]
+}
